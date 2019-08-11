@@ -10,7 +10,7 @@ import javax.persistence.Id;
 
 @Entity
 @Component
-public class User {
+public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private String userId;
@@ -21,21 +21,21 @@ public class User {
     @Column
     private String lastName;
 
-    public User() {
+    public UserEntity() {
     }
 
-    public User(String userName, String firstName, String lastName) {
+    public UserEntity(String userName, String firstName, String lastName) {
         this.userName = userName;
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public User(String firstName, String lastName) {
+    public UserEntity(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public User(String userId, String userName, String firstName, String lastName) {
+    public UserEntity(String userId, String userName, String firstName, String lastName) {
         this.userId = userId;
         this.userName = userName;
         this.firstName = firstName;
@@ -46,7 +46,7 @@ public class User {
         return userName;
     }
 
-    public User setUserName(String userName) {
+    public UserEntity setUserName(String userName) {
         this.userName = userName;
         return this;
     }
@@ -55,7 +55,7 @@ public class User {
         return firstName;
     }
 
-    public User setFirstName(String firstName) {
+    public UserEntity setFirstName(String firstName) {
         this.firstName = firstName;
         return this;
     }
@@ -64,7 +64,7 @@ public class User {
         return lastName;
     }
 
-    public User setLastName(String lastName) {
+    public UserEntity setLastName(String lastName) {
         this.lastName = lastName;
         return this;
     }
@@ -74,7 +74,7 @@ public class User {
         return userId;
     }
 
-    public User setUserId(String userId) {
+    public UserEntity setUserId(String userId) {
         this.userId = userId;
         return this;
     }
