@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97fd207e-5f4f-44d9-9b8f-b156971dff62" name="Default Changelist" comment="" />
+    <list default="true" id="97fd207e-5f4f-44d9-9b8f-b156971dff62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/venkat/rest/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/venkat/rest/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MySpringBootApp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/info/venkat/MySpringBootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/info/venkat/MySpringBootApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/info/venkat/rest/MyController.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +33,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -33,7 +41,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.450116" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />

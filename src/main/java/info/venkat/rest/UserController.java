@@ -1,7 +1,6 @@
 package info.venkat.rest;
 
 import info.venkat.model.User;
-import info.venkat.service.UserService;
 import info.venkat.service.impl.UserServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
