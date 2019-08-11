@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97fd207e-5f4f-44d9-9b8f-b156971dff62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/venkat/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/venkat/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/venkat/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/venkat/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
