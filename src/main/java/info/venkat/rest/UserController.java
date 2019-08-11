@@ -1,6 +1,6 @@
 package info.venkat.rest;
 
-import info.venkat.model.User;
+import info.venkat.model.UserEntity;
 import info.venkat.service.impl.UserServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,14 +18,14 @@ public class UserController {
     UserServiceImpl userService;
 
     @RequestMapping("/create")
-    public User createUser(User myUser)
+    public UserEntity createUser(UserEntity myUser)
     {
         logger.debug(">> createUser");
         return userService.addUser(myUser);
     }
 
     @RequestMapping("/create/default")
-    public User createDefaultUser()
+    public UserEntity createDefaultUser()
     {
         logger.debug(">> createDefaultUser");
         return userService.createDefaultUser();
