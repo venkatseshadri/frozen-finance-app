@@ -12,7 +12,6 @@ import javax.persistence.Id;
 @Component
 public class UserEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String userId;
     @Column(nullable = false)
     private String userName;
