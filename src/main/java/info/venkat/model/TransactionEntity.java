@@ -1,9 +1,14 @@
 package info.venkat.model;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.util.Date;
 
+@Entity
+@Component
 public class TransactionEntity {
 
     @Id
@@ -25,7 +30,14 @@ public class TransactionEntity {
         this.transactionAmount = transactionAmount;
     }
 
+    public TransactionEntity(String userId, Date transactionDate, Float transactionAmount) {
+        this.userId = userId;
+        this.transactionDate = transactionDate;
+        this.transactionAmount = transactionAmount;
+    }
 
+    public TransactionEntity() {
+    }
 
     public String getTransactionId() {
         return transactionId;
