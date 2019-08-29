@@ -32,6 +32,9 @@ public class DashboardEntity {
     @Column
     Float amountValue4;
 
+    public DashboardEntity() {
+    }
+
     public DashboardEntity(String userId, Date transactionDate, Float amountValue1, Float amountValue2, Float amountValue3, Float amountValue4) {
         this.userId = userId;
         this.transactionDate = transactionDate;
