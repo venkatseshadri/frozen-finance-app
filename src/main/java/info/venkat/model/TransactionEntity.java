@@ -12,6 +12,9 @@ import java.util.Date;
 public class TransactionEntity {
 
     @Id
+    Long pk;
+
+    @Column
     String transactionId;
 
     @Column(nullable = false)

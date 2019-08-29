@@ -12,6 +12,8 @@ import javax.persistence.Id;
 @Component
 public class UserEntity {
     @Id
+    Long pk;
+    @Column
     private String userId;
     @Column(nullable = false)
     private String userName;

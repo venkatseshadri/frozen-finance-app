@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/finance/Transaction")
+@RequestMapping("/finance/transaction")
 public class TransactionController {
 
     Logger logger = LoggerFactory.getLogger(TransactionController.class);

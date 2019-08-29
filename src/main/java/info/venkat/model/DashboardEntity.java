@@ -12,6 +12,9 @@ import java.util.Date;
 public class DashboardEntity {
 
     @Id
+    Long pk;
+
+    @Column
     String dashboardId;
 
     @Column(nullable = false)
